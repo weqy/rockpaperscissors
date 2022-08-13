@@ -58,6 +58,7 @@ def user_entry_check():
 
 
 def rock_paper_scissors():
+    my_choice = random.choice(choices)
     if my_choice == entry1.get():
         result = tk.Label(root, text="Tie! Both players chose " + my_choice)
         result.config(font=('helvetica', 10))
