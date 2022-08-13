@@ -1,3 +1,7 @@
+# Rock Paper Scissors
+# Version 1.1 5:59PM 8/13/22
+
+
 import tkinter as tk
 from tkinter import *
 import random
@@ -6,6 +10,9 @@ import playsound
 
 root = tk.Tk()
 # canvas
+
+root.title('Rock, Paper, Scissors')
+#title above canvas
 
 canvas1 = tk.Canvas(root, width=400, height=300, relief='raised')
 canvas1.pack()
